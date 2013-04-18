@@ -1,30 +1,5 @@
-Description
-===========
+# THIS IS GOING AWAY
 
-Miscellaneous library functions for osops packages.  These include:
+You should not use this anymore. Check the rcbops github organization if you still need this and reparent.
 
- * ip address location
-
-
-Requirements
-============
-
-ipaddr
-
-Attributes
-==========
-
-osops_networks is a list of network names and associated CIDR.  These
-are used in the get_ip functions.
-
-
-Usage
-=====
-
-node[:osops_networks][:localnet] = 127.0.0.0/8
-node[:osops_networks][:management] = 10.0.1.0/24
-
-ip = get_ip_for_net("localnet")  # returns 127.0.0.1
-ip = get_ip_for_net("management") # returns the address on management, or error
-
-
+# This repo will be gone by the end of May 
